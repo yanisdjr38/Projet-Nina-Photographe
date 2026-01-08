@@ -351,7 +351,6 @@ input[type="submit"] {
     width: 80%;
   }
 }
-/* Fix WAVE contrast on Bootstrap carousel controls text (visually-hidden) */
 .carousel-control-prev .visually-hidden,
 .carousel-control-next .visually-hidden {
   color: #000 !important;
