@@ -6394,7 +6394,7 @@ fieldset:disabled .btn {
   text-align: center;
   background: none;
   border: 0;
-  opacity: 0.5;
+  opacity: 1;
   transition: opacity 0.15s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -6944,6 +6944,7 @@ fieldset:disabled .btn {
   clip: rect(0, 0, 0, 0) !important;
   white-space: nowrap !important;
   border: 0 !important;
+  opacity: 1 !important;
 }
 
 .stretched-link::after {
