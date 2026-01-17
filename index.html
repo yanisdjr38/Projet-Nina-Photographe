@@ -10,12 +10,15 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet" />
+	<link rel="preload" as="image" href="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp"
+		imagesrcset="./assets/imagePhone/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 650w, ./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 1200w"
+		imagesizes="(max-width: 650px) 100vw, 100vw" type="image/webp" />
 	<meta charset="UTF-8" />
-	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.min.js"></script>
-	<script src="./assets/scripts.min.js"></script>
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+	<script src="./assets/maugallery.min.js" defer></script>
+	<script src="./assets/scripts.min.js" defer></script>
 	<meta name="description"
 		content="Portfolio de Nina Carducci, photographe spécialisée dans les portraits, mariages, événements d'entreprise et concerts . Découvrez son univers et ses services." />
 	<meta name="keywords"
@@ -81,7 +84,7 @@
 					<li><a href="#contact">Contact</a></li>
 					<li>
 						<a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img
-								src="assets/images/instagram.png" alt="instagram logo" /></a>
+								src="assets/images/instagram.png" alt="instagram logo" loading="lazy" /></a>
 					</li>
 				</ul>
 			</div>
@@ -144,9 +147,7 @@
 				<div class="picture left">
 					<picture>
 						<source media="(max-width: 650px)" srcset="./assets/imagePhone/nina.webp" />
-						<img src="./assets/images/nina.webp" alt="photo de Nina" />
-					</picture>
-
+						<img src="./assets/images/nina.webp" alt="photo de Nina" loading="lazy" />
 				</div>
 				<article id="about-me">
 					<h2 class="about-me__title">A propos de moi</h2>
@@ -177,26 +178,32 @@
 				<div class="container py-3">
 					<div class="gallery" style="display: none">
 						<img data-gallery-tag="Concert" class="gallery-item"
-							src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="concert" />
+							src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="concert"
+							loading="lazy" />
 						<img data-gallery-tag="Entreprises" class="gallery-item"
-							src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unspl.webp" alt="homme costume" />
+							src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unspl.webp" alt="homme costume"
+							loading="lazy" />
 						<img data-gallery-tag="Entreprises" class="gallery-item"
-							src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unspla.webp" alt="femme qui rit" />
+							src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unspla.webp" alt="femme qui rit"
+							loading="lazy" />
 						<img data-gallery-tag="Mariages" class="gallery-item"
-							src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unspla.webp" alt="mains des mariées" />
+							src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unspla.webp" alt="mains des mariées"
+							loading="lazy" />
 						<img data-gallery-tag="Portrait" class="gallery-item"
-							src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="portrait-homme" />
+							src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="portrait-homme"
+							loading="lazy" />
 						<img data-gallery-tag="Mariages" class="gallery-item"
-							src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp"
-							alt="mariées devant un arbre" />
+							src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="mariées devant un arbre"
+							loading="lazy" />
 						<img data-gallery-tag="Portrait" class="gallery-item"
 							src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp"
-							alt="portrait-femme" />
+							alt="portrait-femme" loading="lazy" />
 						<img data-gallery-tag="Concert" class="gallery-item"
-							src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplas.webp" alt="concert" />
+							src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplas.webp" alt="concert"
+							loading="lazy" />
 						<img data-gallery-tag="Entreprises" class="gallery-item"
 							src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp"
-							alt="femme qui sourit " />
+							alt="femme qui sourit " loading="lazy" />
 					</div>
 				</div>
 				<div class="quote">
@@ -300,7 +307,7 @@
 					</form>
 				</div>
 				<div class="picture right">
-					<img src="./assets/images/camera.webp" alt="photo d'une caméra vintage" />
+					<img src="./assets/images/camera.webp" alt="photo d'une caméra vintage" loading="lazy" />
 				</div>
 			</div>
 		</div>
